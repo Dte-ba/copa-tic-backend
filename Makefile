@@ -10,10 +10,10 @@ L=[01;30m
 BIN_MANAGE=python manage.py
 BIN_MANAGE_RELATIVO=python manage.py
 BIN_DOKKU=~/.dokku/contrib/dokku_client.sh
-DB_NAME=suite-produccion
-DB_NOMBRE_DEL_DUMP= ~/Dropbox/4cores/Backups/suite-backend-produccion-dtelab_`date +'%Y%m%d_%Hhs%Mmin'`.dump
+DB_NAME=copatic-produccion
+DB_NOMBRE_DEL_DUMP= ~/Dropbox/4cores/Backups/copatic-backend-produccion-enjambrelab_`date +'%Y%m%d_%Hhs%Mmin'`.dump
 DB_DUMP_MAS_RECIENTE=`ls -Art ~/Dropbox/4cores/Backups/*.dump  | tail -n 1`
-DB_URL="postgres://postgres:postgress@localhost/suite"
+DB_URL="postgres://postgres:postgress@localhost/copatic"
 
 comandos:
 	@echo ""

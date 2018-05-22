@@ -14,6 +14,15 @@ name = "pypi"
 django = "*"
 djangorestframework = "*"
 django-cors-headers = "*"
+dj-static = "*"
+dj-database-url = "*"
+"psycopg2" = "*"
+"psycopg2-binary" = "*"
+djangorestframework-jsonapi = "*"
+gunicorn = "*"
+honcho = "*"
+ipdb = "*"
+pprint = "*"
 
 
 [requires]

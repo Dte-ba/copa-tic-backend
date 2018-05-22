@@ -1,18 +1,6 @@
 from django.contrib import admin
-from copatic import models
+from copatic.admin_classes.escuela import Escuela, EscuelaAdmin
+from copatic.admin_classes.equipo import Equipo, EquipoAdmin
 
-
-class CustomModelAdmin(admin.ModelAdmin):
-
-    class Media:
-         js = (
-            'http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js',
-            )
-
-class EscuelaAdmin(CustomModelAdmin):
-    model = models.Escuela
-    list_display = ('id', 'nombre', 'localidad')
-    search_fields = ('nombre', 'localidad')
-
-
-admin.site.register(models.Escuela, EscuelaAdmin)
+admin.site.register(Escuela, EscuelaAdmin)
+admin.site.register(Equipo, EquipoAdmin)

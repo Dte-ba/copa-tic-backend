@@ -15,6 +15,7 @@ class Migration(migrations.Migration):
             name='Escuela',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('cue', models.CharField(blank=True, default=None, max_length=8, null=True)),
                 ('nombre', models.CharField(max_length=100)),
                 ('localidad', models.CharField(max_length=100)),
                 ('latitud', models.CharField(blank=True, default=None, max_length=64, null=True)),

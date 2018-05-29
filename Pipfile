@@ -23,6 +23,7 @@ gunicorn = "*"
 honcho = "*"
 ipdb = "*"
 pprint = "*"
+openpyxl = "*"
 
 
 [requires]

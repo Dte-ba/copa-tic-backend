@@ -12,11 +12,6 @@ class Migration(migrations.Migration):
     operations = [
         migrations.AddField(
             model_name='equipo',
-            name='a10descripcion',
-            field=models.TextField(blank=True, default=None, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
             name='a10estado',
             field=models.BooleanField(default=False),
         ),
@@ -24,16 +19,6 @@ class Migration(migrations.Migration):
             model_name='equipo',
             name='a10link',
             field=models.CharField(blank=True, default=None, max_length=100, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
-            name='a10titulo',
-            field=models.CharField(blank=True, default=None, max_length=100, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
-            name='a11descripcion',
-            field=models.TextField(blank=True, default=None, null=True),
         ),
         migrations.AddField(
             model_name='equipo',
@@ -47,16 +32,6 @@ class Migration(migrations.Migration):
         ),
         migrations.AddField(
             model_name='equipo',
-            name='a11titulo',
-            field=models.CharField(blank=True, default=None, max_length=100, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
-            name='a12descripcion',
-            field=models.TextField(blank=True, default=None, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
             name='a12estado',
             field=models.BooleanField(default=False),
         ),
@@ -64,16 +39,6 @@ class Migration(migrations.Migration):
             model_name='equipo',
             name='a12link',
             field=models.CharField(blank=True, default=None, max_length=100, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
-            name='a12titulo',
-            field=models.CharField(blank=True, default=None, max_length=100, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
-            name='a13descripcion',
-            field=models.TextField(blank=True, default=None, null=True),
         ),
         migrations.AddField(
             model_name='equipo',
@@ -87,16 +52,6 @@ class Migration(migrations.Migration):
         ),
         migrations.AddField(
             model_name='equipo',
-            name='a13titulo',
-            field=models.CharField(blank=True, default=None, max_length=100, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
-            name='a14descripcion',
-            field=models.TextField(blank=True, default=None, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
             name='a14estado',
             field=models.BooleanField(default=False),
         ),
@@ -104,16 +59,6 @@ class Migration(migrations.Migration):
             model_name='equipo',
             name='a14link',
             field=models.CharField(blank=True, default=None, max_length=100, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
-            name='a14titulo',
-            field=models.CharField(blank=True, default=None, max_length=100, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
-            name='a15descripcion',
-            field=models.TextField(blank=True, default=None, null=True),
         ),
         migrations.AddField(
             model_name='equipo',
@@ -127,16 +72,6 @@ class Migration(migrations.Migration):
         ),
         migrations.AddField(
             model_name='equipo',
-            name='a15titulo',
-            field=models.CharField(blank=True, default=None, max_length=100, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
-            name='a16descripcion',
-            field=models.TextField(blank=True, default=None, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
             name='a16estado',
             field=models.BooleanField(default=False),
         ),
@@ -144,16 +79,6 @@ class Migration(migrations.Migration):
             model_name='equipo',
             name='a16link',
             field=models.CharField(blank=True, default=None, max_length=100, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
-            name='a16titulo',
-            field=models.CharField(blank=True, default=None, max_length=100, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
-            name='a1descripcion',
-            field=models.TextField(blank=True, default=None, null=True),
         ),
         migrations.AddField(
             model_name='equipo',
@@ -167,16 +92,6 @@ class Migration(migrations.Migration):
         ),
         migrations.AddField(
             model_name='equipo',
-            name='a1titulo',
-            field=models.CharField(blank=True, default=None, max_length=100, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
-            name='a2descripcion',
-            field=models.TextField(blank=True, default=None, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
             name='a2estado',
             field=models.BooleanField(default=False),
         ),
@@ -184,16 +99,6 @@ class Migration(migrations.Migration):
             model_name='equipo',
             name='a2link',
             field=models.CharField(blank=True, default=None, max_length=100, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
-            name='a2titulo',
-            field=models.CharField(blank=True, default=None, max_length=100, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
-            name='a3descripcion',
-            field=models.TextField(blank=True, default=None, null=True),
         ),
         migrations.AddField(
             model_name='equipo',
@@ -207,16 +112,6 @@ class Migration(migrations.Migration):
         ),
         migrations.AddField(
             model_name='equipo',
-            name='a3titulo',
-            field=models.CharField(blank=True, default=None, max_length=100, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
-            name='a4descripcion',
-            field=models.TextField(blank=True, default=None, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
             name='a4estado',
             field=models.BooleanField(default=False),
         ),
@@ -224,16 +119,6 @@ class Migration(migrations.Migration):
             model_name='equipo',
             name='a4link',
             field=models.CharField(blank=True, default=None, max_length=100, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
-            name='a4titulo',
-            field=models.CharField(blank=True, default=None, max_length=100, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
-            name='a5descripcion',
-            field=models.TextField(blank=True, default=None, null=True),
         ),
         migrations.AddField(
             model_name='equipo',
@@ -247,16 +132,6 @@ class Migration(migrations.Migration):
         ),
         migrations.AddField(
             model_name='equipo',
-            name='a5titulo',
-            field=models.CharField(blank=True, default=None, max_length=100, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
-            name='a6descripcion',
-            field=models.TextField(blank=True, default=None, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
             name='a6estado',
             field=models.BooleanField(default=False),
         ),
@@ -264,16 +139,6 @@ class Migration(migrations.Migration):
             model_name='equipo',
             name='a6link',
             field=models.CharField(blank=True, default=None, max_length=100, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
-            name='a6titulo',
-            field=models.CharField(blank=True, default=None, max_length=100, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
-            name='a7descripcion',
-            field=models.TextField(blank=True, default=None, null=True),
         ),
         migrations.AddField(
             model_name='equipo',
@@ -287,16 +152,6 @@ class Migration(migrations.Migration):
         ),
         migrations.AddField(
             model_name='equipo',
-            name='a7titulo',
-            field=models.CharField(blank=True, default=None, max_length=100, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
-            name='a8descripcion',
-            field=models.TextField(blank=True, default=None, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
             name='a8estado',
             field=models.BooleanField(default=False),
         ),
@@ -307,27 +162,12 @@ class Migration(migrations.Migration):
         ),
         migrations.AddField(
             model_name='equipo',
-            name='a8titulo',
-            field=models.CharField(blank=True, default=None, max_length=100, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
-            name='a9descripcion',
-            field=models.TextField(blank=True, default=None, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
             name='a9estado',
             field=models.BooleanField(default=False),
         ),
         migrations.AddField(
             model_name='equipo',
             name='a9link',
-            field=models.CharField(blank=True, default=None, max_length=100, null=True),
-        ),
-        migrations.AddField(
-            model_name='equipo',
-            name='a9titulo',
             field=models.CharField(blank=True, default=None, max_length=100, null=True),
         ),
     ]

@@ -150,9 +150,7 @@ def cargar_equipos(apps, schema_editor):
         ("62249500","b71","Escuela Secundaria N°13","Olavarría"),
     ]
     for equipo in lista_de_equipos:
-        print("escuela a buscar (CUE):" + equipo[0])
         escuela = Escuela.objects.get(cue=equipo[0])
-        print(escuela)
         Equipo.objects.create(eid=equipo[1], escuela=escuela)
 
 class Migration(migrations.Migration):

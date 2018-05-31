@@ -4,5 +4,5 @@ from copatic.models.insignia import Insignia
 class InsigniaSerializer(serializers.ModelSerializer):
 
     class Meta:
-        model = Actividad
-        fields = ('id', 'nombre')
+        model = Insignia
+        fields = ('id', 'nombre', 'slug')

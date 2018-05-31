@@ -8,6 +8,9 @@ class Actividad(models.Model):
 
     insignias = models.ManyToManyField("Insignia", related_name="actividades", default=None, blank=True)
 
+    def __str__(self):
+        return self.titulo
+
     class Meta:
         db_table = 'actividades'
         verbose_name_plural = "actividades"

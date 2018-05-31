@@ -5,24 +5,24 @@ from copatic.models.insignia import Insignia
 
 def crear_insignias(apps, schema_editor):
     lista_de_insignias = [
-        ("Estética y diseño"),
-        ("Producción escrita"),
-        ("Producción fotográfica"),
-        ("Producción audiovisual"),
-        ("Producción sonora"),
-        ("Producción multimedia"),
-        ("Programación"),
-        ("Participación en redes sociales"),
-        ("Trabajo colaborativo"),
-        ("Gestión de información"),
-        ("Actuación"),
-        ("Evaluación y selección de medios y tecnologías"),
-        ("Interpretación textual"),
-        ("Prevención"),
+        ("Estética y diseño","estetica-y-diseno"),
+        ("Producción escrita","produccion-escrita"),
+        ("Producción fotográfica","produccion-fotografica"),
+        ("Producción audiovisual","produccion-audiovisual"),
+        ("Producción sonora","produccion-sonora"),
+        ("Producción multimedia","produccion-multimedia"),
+        ("Programación","programacion"),
+        ("Participación en redes sociales","participacion-en-redes-sociales"),
+        ("Trabajo colaborativo","trabajo-colaborativo"),
+        ("Gestión de información","gestion-de-informacion"),
+        ("Actuación","actuacion"),
+        ("Evaluación y selección de medios y tecnologías","evaluacion-y-seleccion-de-medios-y-tecnologias"),
+        ("Interpretación textual","interpretacion-textual"),
+        ("Prevención","prevencion"),
     ]
 
     for insignia in lista_de_insignias:
-        Insignia.objects.create(nombre=insignia[0])
+        Insignia.objects.create(nombre=insignia[0], slug=insignia[1])
 
 class Migration(migrations.Migration):
 

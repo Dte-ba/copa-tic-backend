@@ -99,69 +99,37 @@ class Command(BaseCommand):
                 "dt":                   str(fila[6].value),
                 "puntos":               str(fila[7].value),
                 "a1estado":             str(fila[8].value),
-                "a1titulo":             str(fila[9].value),
-                "a1descripcion":        str(fila[10].value),
-                "a1link":               str(fila[11].value),
-                "a2estado":             str(fila[12].value),
-                "a2titulo":             str(fila[13].value),
-                "a2descripcion":        str(fila[14].value),
-                "a2link":               str(fila[15].value),
-                "a3estado":             str(fila[16].value),
-                "a3titulo":             str(fila[17].value),
-                "a3descripcion":        str(fila[18].value),
-                "a3link":               str(fila[19].value),
-                "a4estado":             str(fila[20].value),
-                "a4titulo":             str(fila[21].value),
-                "a4descripcion":        str(fila[22].value),
-                "a4link":               str(fila[23].value),
-                "a5estado":             str(fila[24].value),
-                "a5titulo":             str(fila[25].value),
-                "a5descripcion":        str(fila[26].value),
-                "a5link":               str(fila[27].value),
-                "a6estado":             str(fila[28].value),
-                "a6titulo":             str(fila[29].value),
-                "a6descripcion":        str(fila[30].value),
-                "a6link":               str(fila[31].value),
-                "a7estado":             str(fila[32].value),
-                "a7titulo":             str(fila[33].value),
-                "a7descripcion":        str(fila[34].value),
-                "a7link":               str(fila[35].value),
-                "a8estado":             str(fila[36].value),
-                "a8titulo":             str(fila[37].value),
-                "a8descripcion":        str(fila[38].value),
-                "a8link":               str(fila[39].value),
-                "a9estado":             str(fila[40].value),
-                "a9titulo":             str(fila[41].value),
-                "a9descripcion":        str(fila[42].value),
-                "a9link":               str(fila[43].value),
-                "a10estado":             str(fila[44].value),
-                "a10titulo":             str(fila[45].value),
-                "a10descripcion":        str(fila[46].value),
-                "a10link":               str(fila[47].value),
-                "a11estado":             str(fila[48].value),
-                "a11titulo":             str(fila[49].value),
-                "a11descripcion":        str(fila[50].value),
-                "a11link":               str(fila[51].value),
-                "a12estado":             str(fila[52].value),
-                "a12titulo":             str(fila[53].value),
-                "a12descripcion":        str(fila[54].value),
-                "a12link":               str(fila[55].value),
-                "a13estado":             str(fila[56].value),
-                "a13titulo":             str(fila[57].value),
-                "a13descripcion":        str(fila[58].value),
-                "a13link":               str(fila[59].value),
-                "a14estado":             str(fila[60].value),
-                "a14titulo":             str(fila[61].value),
-                "a14descripcion":        str(fila[62].value),
-                "a14link":               str(fila[63].value),
-                "a15estado":             str(fila[64].value),
-                "a15titulo":             str(fila[65].value),
-                "a15descripcion":        str(fila[66].value),
-                "a15link":               str(fila[67].value),
-                "a16estado":             str(fila[68].value),
-                "a16titulo":             str(fila[69].value),
-                "a16descripcion":        str(fila[70].value),
-                "a16link":               str(fila[71].value),
+                "a1link":               str(fila[9].value),
+                "a2estado":             str(fila[10].value),
+                "a2link":               str(fila[11].value),
+                "a3estado":             str(fila[12].value),
+                "a3link":               str(fila[13].value),
+                "a4estado":             str(fila[14].value),
+                "a4link":               str(fila[15].value),
+                "a5estado":             str(fila[16].value),
+                "a5link":               str(fila[17].value),
+                "a6estado":             str(fila[18].value),
+                "a6link":               str(fila[19].value),
+                "a7estado":             str(fila[20].value),
+                "a7link":               str(fila[21].value),
+                "a8estado":             str(fila[22].value),
+                "a8link":               str(fila[23].value),
+                "a9estado":             str(fila[24].value),
+                "a9link":               str(fila[25].value),
+                "a10estado":             str(fila[26].value),
+                "a10link":               str(fila[27].value),
+                "a11estado":             str(fila[28].value),
+                "a11link":               str(fila[29].value),
+                "a12estado":             str(fila[30].value),
+                "a12link":               str(fila[31].value),
+                "a13estado":             str(fila[32].value),
+                "a13link":               str(fila[33].value),
+                "a14estado":             str(fila[34].value),
+                "a14link":               str(fila[35].value),
+                "a15estado":             str(fila[36].value),
+                "a15link":               str(fila[37].value),
+                "a16estado":             str(fila[38].value),
+                "a16link":               str(fila[39].value),
             }
 
         cantidad_de_filas_con_datos = 0
@@ -189,68 +157,36 @@ class Command(BaseCommand):
                 dt = valores['dt']
                 puntos = valores['puntos']
                 a1estado = valores['a1estado']
-                a1titulo = valores['a1titulo']
-                a1descripcion = valores['a1descripcion']
                 a1link = valores['a1link']
                 a2estado = valores['a2estado']
-                a2titulo = valores['a2titulo']
-                a2descripcion = valores['a2descripcion']
                 a2link = valores['a2link']
                 a3estado = valores['a3estado']
-                a3titulo = valores['a3titulo']
-                a3descripcion = valores['a3descripcion']
                 a3link = valores['a3link']
                 a4estado = valores['a4estado']
-                a4titulo = valores['a4titulo']
-                a4descripcion = valores['a4descripcion']
                 a4link = valores['a4link']
                 a5estado = valores['a5estado']
-                a5titulo = valores['a5titulo']
-                a5descripcion = valores['a5descripcion']
                 a5link = valores['a5link']
                 a6estado = valores['a6estado']
-                a6titulo = valores['a6titulo']
-                a6descripcion = valores['a6descripcion']
                 a6link = valores['a6link']
                 a7estado = valores['a7estado']
-                a7titulo = valores['a7titulo']
-                a7descripcion = valores['a7descripcion']
                 a7link = valores['a7link']
                 a8estado = valores['a8estado']
-                a8titulo = valores['a8titulo']
-                a8descripcion = valores['a8descripcion']
                 a8link = valores['a8link']
                 a9estado = valores['a9estado']
-                a9titulo = valores['a9titulo']
-                a9descripcion = valores['a9descripcion']
                 a9link = valores['a9link']
                 a10estado = valores['a10estado']
-                a10titulo = valores['a10titulo']
-                a10descripcion = valores['a10descripcion']
                 a10link = valores['a10link']
                 a11estado = valores['a11estado']
-                a11titulo = valores['a11titulo']
-                a11descripcion = valores['a11descripcion']
                 a11link = valores['a11link']
                 a12estado = valores['a12estado']
-                a12titulo = valores['a12titulo']
-                a12descripcion = valores['a12descripcion']
                 a12link = valores['a12link']
                 a13estado = valores['a13estado']
-                a13titulo = valores['a13titulo']
-                a13descripcion = valores['a13descripcion']
                 a13link = valores['a13link']
                 a14estado = valores['a14estado']
-                a14titulo = valores['a14titulo']
-                a14descripcion = valores['a14descripcion']
                 a14link = valores['a14link']
                 a15estado = valores['a15estado']
-                a15titulo = valores['a15titulo']
-                a15descripcion = valores['a15descripcion']
                 a15link = valores['a15link']
                 a16estado = valores['a16estado']
-                a16titulo = valores['a16titulo']
-                a16descripcion = valores['a16descripcion']
                 a16link = valores['a16link']
 
                 print("-----------------------------------------")
@@ -280,68 +216,36 @@ class Command(BaseCommand):
                 else:
                     equipo.puntos = 0
                 equipo.a1estado = a1estado
-                equipo.a1titulo = a1titulo
-                equipo.a1descripcion = a1descripcion
                 equipo.a1link = a1link
                 equipo.a2estado = a2estado
-                equipo.a2titulo = a2titulo
-                equipo.a2descripcion = a2descripcion
                 equipo.a2link = a2link
                 equipo.a3estado = a3estado
-                equipo.a3titulo = a3titulo
-                equipo.a3descripcion = a3descripcion
                 equipo.a3link = a3link
                 equipo.a4estado = a4estado
-                equipo.a4titulo = a4titulo
-                equipo.a4descripcion = a4descripcion
                 equipo.a4link = a4link
                 equipo.a5estado = a5estado
-                equipo.a5titulo = a5titulo
-                equipo.a5descripcion = a5descripcion
                 equipo.a5link = a5link
                 equipo.a6estado = a6estado
-                equipo.a6titulo = a6titulo
-                equipo.a6descripcion = a6descripcion
                 equipo.a6link = a6link
                 equipo.a7estado = a7estado
-                equipo.a7titulo = a7titulo
-                equipo.a7descripcion = a7descripcion
                 equipo.a7link = a7link
                 equipo.a8estado = a8estado
-                equipo.a8titulo = a8titulo
-                equipo.a8descripcion = a8descripcion
                 equipo.a8link = a8link
                 equipo.a9estado = a9estado
-                equipo.a9titulo = a9titulo
-                equipo.a9descripcion = a9descripcion
                 equipo.a9link = a9link
                 equipo.a10estado = a10estado
-                equipo.a10titulo = a10titulo
-                equipo.a10descripcion = a10descripcion
                 equipo.a10link = a10link
                 equipo.a11estado = a11estado
-                equipo.a11titulo = a11titulo
-                equipo.a11descripcion = a11descripcion
                 equipo.a11link = a11link
                 equipo.a12estado = a12estado
-                equipo.a12titulo = a12titulo
-                equipo.a12descripcion = a12descripcion
                 equipo.a12link = a12link
                 equipo.a13estado = a13estado
-                equipo.a13titulo = a13titulo
-                equipo.a13descripcion = a13descripcion
                 equipo.a13link = a13link
                 equipo.a14estado = a14estado
-                equipo.a14titulo = a14titulo
-                equipo.a14descripcion = a14descripcion
                 equipo.a14link = a14link
                 equipo.a15estado = a15estado
-                equipo.a15titulo = a15titulo
-                equipo.a15descripcion = a15descripcion
                 equipo.a15link = a15link
                 equipo.a16estado = a16estado
-                equipo.a16titulo = a16titulo
-                equipo.a16descripcion = a16descripcion
                 equipo.a16link = a16link
 
                 equipo.save()

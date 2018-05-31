@@ -3,8 +3,8 @@ from django.contrib.auth.models import User
 from rest_framework.response import Response
 from rest_framework import status
 
-from copatic.models.actividade import Actividad
-from copatic.serializers.actividade import ActividadSerializer
+from copatic.models.actividad import Actividad
+from copatic.serializers.actividad import ActividadSerializer
 
 class ActividadViewSet(viewsets.ModelViewSet):
     queryset = Actividad.objects.all()

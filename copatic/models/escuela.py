@@ -7,6 +7,9 @@ class Escuela(models.Model):
     latitud = models.CharField(max_length=64, default=None, blank=True, null=True)
     longitud = models.CharField(max_length=64, default=None, blank=True, null=True)
 
+    def __str__(self):
+        return self.nombre
+
     class Meta:
         db_table = 'escuelas'
         verbose_name_plural = "escuelas"

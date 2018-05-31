@@ -2,34 +2,39 @@
 
 from django.db import migrations
 from copatic.models.actividad import Actividad
+from copatic.models.insignia import Insignia
 
 def crear_actividades(apps, schema_editor):
     lista_de_actividades = [
-        ("","","",""),
-        ("","","",""),
-        ("","","",""),
-        ("","","",""),
-        ("","","",""),
-        ("","","",""),
-        ("","","",""),
-        ("","","",""),
-        ("","","",""),
-        ("","","",""),
-        ("","","",""),
-        ("","","",""),
-        ("","","",""),
-        ("","","",""),
-        ("","","",""),
-        ("","","",""),
+        ("Mapa interactivo Rusia 2018","1","3","",[("Producción multimedia")]),
+        ("Hay equipo","1","3","",[("Estética y diseño")]),
+        ("Crónica: el Mundial en mi escuela","1","3","",""),
+        ("El campeón inesperado","1","5","",""),
+        ("De cábalas y otras yerbas","2","5","",""),
+        ("El Mundial en primera persona","2","3","",""),
+        ("El ranking de las proteínas","2","5","",""),
+        ("Remix  Mundial","2","3","",""),
+        ("¿A qué jugamos?","3","3","",""),
+        ("Al ritmo del Mundial","3","4","",""),
+        ("El fútbol en mi barrio","3","4","",""),
+        ("Campaña contra la discriminación de género en el fútbol","3","5","",""),
+        ("El gol animado","4","5","",""),
+        ("Medios, fútbol y duscriminación","4","4","",""),
+        ("El Mundial de los datos","4","4","",""),
+        ("Los estadios a través de la historia","4","4","",""),
     ]
 
     for actividad in lista_de_actividades:
-        Actividad.objects.create(titulo=actividad[0], fase=actividad[1],puntos=actividad[2],descripcion=actividad[3])
+        a = Actividad.objects.create(titulo=actividad[0], fase=actividad[1],puntos=actividad[2],descripcion=actividad[3])
+        for insignia in actividad[4]:
+            i = Insignia.objects.get(nombre=insignia)
+            a.insignias.add(i)
+        a.save()
 
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('copatic', '0009_crear_actividades'),
+        ('copatic', '0009_crear_insignias'),
     ]
 
     operations = [

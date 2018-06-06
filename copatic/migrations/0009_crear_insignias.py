@@ -17,8 +17,7 @@ def crear_insignias(apps, schema_editor):
         ("Gestión de información","gestion-de-informacion"),
         ("Actuación","actuacion"),
         ("Evaluación y selección de medios y tecnologías","evaluacion-y-seleccion-de-medios-y-tecnologias"),
-        ("Interpretación textual","interpretacion-textual"),
-        ("Prevención","prevencion"),
+        ("Interpretación textual","interpretacion-textual")
     ]
 
     for insignia in lista_de_insignias:

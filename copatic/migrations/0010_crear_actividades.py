@@ -19,7 +19,7 @@ def crear_actividades(apps, schema_editor):
         ("El fútbol en mi barrio","3","4","",[("Producción fotográfica")]),
         ("Campaña contra la discriminación de género en el fútbol","3","5","",[("Participación en redes sociales")]),
         ("El gol animado","4","5","",[("Programación")]),
-        ("Medios, fútbol y discriminación","4","4","",[("Evaluación y selección de medios y tecnologías", "Interpretación textual")]),
+        ("Medios, fútbol y discriminación","4","4","",[("Evaluación y selección de medios y tecnologías"),( "Interpretación textual")]),
         ("El Mundial de los datos","4","4","",""),
         ("Los estadios a través de la historia","4","4","",""),
     ]

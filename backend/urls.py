@@ -7,6 +7,7 @@ from copatic.views.escuela import EscuelaViewSet
 from copatic.views.equipo import EquipoViewSet
 from copatic.views.insignia import InsigniaViewSet
 from copatic.views.actividad import ActividadViewSet
+from copatic.views.fase import FaseViewSet
 from copatic.views.home import home
 
 router = routers.DefaultRouter(trailing_slash=False)
@@ -14,6 +15,7 @@ router.register('escuelas', EscuelaViewSet)
 router.register('equipos', EquipoViewSet)
 router.register('insignias', InsigniaViewSet)
 router.register('actividades', ActividadViewSet)
+router.register('fases', FaseViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),

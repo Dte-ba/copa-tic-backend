@@ -5,6 +5,7 @@ from copatic.models.fase import Fase
 
 def crear_fases(apps, schema_editor):
     lista_de_fases = [
+        ("0",True),
         ("1",True),
         ("2",False),
         ("3",False),

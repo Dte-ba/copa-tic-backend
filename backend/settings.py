@@ -4,7 +4,7 @@ import dj_database_url
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SECRET_KEY = 'ovb4oe_($mhuo!gb^u0+s$xah)g)mm=b84mho1e)%3&cmd@ijp'
-DEBUG = True
+DEBUG = False
 
 VERSION_NUMER = "0.0.1"
 ALLOWED_HOSTS = ['copatic-backend.enjambrelab.com.ar','copatic-backend.dtelab.com.ar','localhost','127.0.0.1','localhost:4200', 'copatic.abc.gob.ar' 'copatic.abc.gov.ar']

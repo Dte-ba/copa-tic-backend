@@ -22,7 +22,6 @@ djangorestframework-jsonapi = "*"
 gunicorn = "*"
 honcho = "*"
 ipdb = "*"
-pprint = "*"
 openpyxl = "*"
 
 
